@@ -1,0 +1,9 @@
+If(
+    IsBlank(locStartTime) || IsBlank(locEndTime) || 
+    IsBlank(locLunchInTime) || IsBlank(locLunchOutTime),
+    "Complete all time entries to calculate",
+    DateDiff(locStartTime, locEndTime, Minutes) - 
+    DateDiff(locLunchInTime, locLunchOutTime, Minutes) & " minutes"
+),
+DateDiff(locStartTime, locEndTime, Minutes) - DateDiff(locLunchInTime, locLunchOutTime, Minutes)
+
