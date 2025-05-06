@@ -11,3 +11,5 @@ SVG Icons - a reminder of the syntax used to display SVG's.
 codeEditor - Darren Neese's to see the yaml in a text box in power appa.
 
 reg_Exp_email.txt - Regular Expression to require 8 characters of which must contain, Number,  Symbol, and Letters.
+
+Naming Guide Lines - Author: Darren Neese (Superpower Labs) setting naming guidelines

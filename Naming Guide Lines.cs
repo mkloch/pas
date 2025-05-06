@@ -50,7 +50,7 @@
             fxLightDarkMode
             fxGrays
     */
-
+    // Author: Darren Neese (Superpower Labs)
     //fxFun_NewFunction():AppUser = "";
 
     fxTyp_MyAppUser_Table:= Type(
